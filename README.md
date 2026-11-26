@@ -75,9 +75,17 @@ ForReal contains instructions and Codex UI metadata. It needs no API key, packag
 
 Other assistants can use the instructions in [SKILL.md](SKILL.md) as a prompt, but skill discovery and invocation depend on the host. The `$forreal` examples above are for Codex.
 
+## Security
+
+Install from this repository and review changes before updating your installed copy. ForReal is an instruction set: an update can change how your assistant behaves. For a reproducible installation, check out a specific commit you have reviewed rather than automatically following new commits.
+
+Changes to `main` go through pull requests. GitHub Actions is disabled because this project does not need executable workflows. Read [SECURITY.md](SECURITY.md) for the repository safeguards and [report vulnerabilities privately](https://github.com/InshaalAmin-67/ForReal/security/advisories/new).
+
 ## Contributing
 
 Open an issue or pull request with the review behavior you want to improve, a realistic example, and why the change would lead to a better decision. Keep reviews concise, preserve the scoring rubric, and require evidence for praise and criticism alike. Use fictional or anonymized examples.
+
+Explain any new tool use, network access, executable files, or permission requirements. Do not include credentials or private customer data in examples. The maintainer reviews contributions before merging; a pull request cannot update the published skill on its own.
 
 ## License
 

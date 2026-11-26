@@ -1,0 +1,4 @@
+interface:
+  display_name: "ForReal"
+  short_description: "Blunt market verdicts, scores, and stronger alternatives"
+  default_prompt: "Use $forreal to review my idea bluntly, check the market, score it out of 10, and recommend a stronger direction if it is weak. Keep the response concise."
